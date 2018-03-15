@@ -40,7 +40,7 @@ If a user owns the Morphtoken with ID **888123888** they own it in both apps A a
 
 If a user owns the Morphtoken with ID **999123999** they own it in both apps A and B.  In app A it is a rare (1/1000 chance) circle, where as in App B is it a regular random color with the same probability as any other.
 
-Trading be colors in App B becomes especially interesting when there is a chance that the color is a rare shape in App A.
+Trading colors in App B becomes especially interesting when there is a chance that the Morphtoken up for trade is a rare shape in App A, or some other app in the ecosystem.
 
 ***
 
