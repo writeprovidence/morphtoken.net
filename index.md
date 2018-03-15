@@ -15,7 +15,9 @@ Morphtoken is as simple as possible, so is the documentation and website.
 
 ## Whitepaper
 Coming April 1st.
+
 ***
+
 # Examples
 
 What if every professional athlete played in every sports league? If you owned the baseball card for pitcher Joe Schmoe you could also use it as the basketball card for point-guard Joe Schmoe.  That's what we're going for here.
