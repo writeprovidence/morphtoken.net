@@ -1,7 +1,7 @@
 # Morphtoken
 An ERC721 token that adds interoperability between collectible applications.
 
-![Morphtoken Logo](morphtoken.png =100x120)
+<img src="morphtoken.png " width="120" />
 
 ## Introduction
 
