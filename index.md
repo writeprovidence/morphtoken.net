@@ -46,3 +46,5 @@ Trading be colors in App B becomes especially interesting when there is a chance
 Creator:  
 [twitter](https://twitter.com/cupojoseph)  
 [email](mailto:jschiarizzi@gmail.com)
+
+Let us know if you have questions or have used Morphtoken in your application.
