@@ -14,7 +14,7 @@ Morphtoken is as simple as possible, so is the documentation and website.
 ***
 
 ## Whitepaper
-Coming April 1st.
+Coming very soon.
 
 ***
 
