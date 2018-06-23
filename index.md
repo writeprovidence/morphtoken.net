@@ -1,5 +1,5 @@
 # Morphtoken
-An ERC721 token that adds interoperability between collectible applications.
+An ERC721 token that adds interoperability between collectible applications. A Morphtoken is a generic and unique crypto asset which can be used to in many different collectible games.
 
 <img src="morphtoken.png " width="120" />
 
@@ -8,13 +8,35 @@ An ERC721 token that adds interoperability between collectible applications.
 ### What does interoperability mean?
 Multiple different collectible games, services, trackers, and apps can use Morphtoken such that each token is a different collectible in each respective application, owned by a single user. More on why this is useful later.
 
+### Why?
+The goal is
+
 ### What's with the barebones website?
 Morphtoken is as simple as possible, so is the documentation and website.
 
 ***
 
-## Whitepaper
+## Specs
+
+### White Paper
 Coming very soon.
+
+### Genes
+Each Morphtoken has a gene which can used to determine how it is represented in different applications. Each gene is made up of:
+
+- A 'Counter variable' which is the unique number for the order the assets were created in. The first Morphtoken 'Counter variable' is 1; the last is 10,000,000.
+- 3 'Boolean variables' represented as a 1 or 0.
+- A 'DNA sequence' represented as an 18 digit long number.
+- A 'P variable' represented as a number between 1 and 100.
+
+
+
+***
+
+## Distribution
+This is still under consideration. We want to give away as many Morphtokens as possible to members of the Ethereum and Crypto community so that more people will be inspired to more easily create applications with unique crypto items.
+
+We are still figuring out the best way to do that.
 
 ***
 
