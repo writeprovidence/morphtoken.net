@@ -9,7 +9,7 @@ An ERC721 token that adds interoperability between collectible applications. A M
 Multiple different collectible games, services, trackers, and apps can use Morphtoken such that each token is a different collectible in each respective application, owned by a single user. More on why this is useful later.
 
 ### Why?
-The goal is
+The goal is to make it easier, cheaper, more fun, to launch and use crypto collectable projects.
 
 ### What's with the barebones website?
 Morphtoken is as simple as possible, so is the documentation and website.
