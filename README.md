@@ -31,8 +31,6 @@ Each Morphtoken has a gene which can used to determine how it is represented in 
 - A 'DNA sequence' represented as an 18 digit long number.
 - A 'P variable' represented as a number between 1 and 100.
 
-
-
 ***
 
 ## Distribution
