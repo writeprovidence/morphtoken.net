@@ -109,13 +109,13 @@ h1 {
   max-width: 23em;
 }
 .eth .coin-face {
-  background: shade(#6F7CBA, 35%);
+  background: shade(#5A4CAE, 35%);
 }
 .eth .coin-face:nth-child(1), .eth .coin-face:nth-child(5) {
-  background: #6F7CBA;
+  background: #5A4CAE;
 }
 .eth .coin-address:hover, .eth .coin-address:focus {
-  border-color: #6F7CBA;
+  border-color: #5A4CAE;
 }
 
 
