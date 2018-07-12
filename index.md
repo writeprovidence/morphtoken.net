@@ -183,10 +183,9 @@ Let us know if you have questions or have used Morphtoken in your application.
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
-  height: 100vh;
-  font-size: 4vmin;
+  font-size:34vmin;
 }
 
 .donate-crypto-box:nth-child(1) .coin {
