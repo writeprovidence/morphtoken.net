@@ -209,13 +209,19 @@ body {
 <label class="eth donate-crypto-box">
   <div class="coin">
     <div class="coin-face">
-      <svg height="10" viewBox="0 0 32 32" width="10" xmlns="http://www.w3.org/2000/svg"><path d="M10.13 17.76c-.1-.15-.06-.2.09-.12l5.49 3.09c.15.08.4.08.56 0l5.58-3.08c.16-.08.2-.03.1.11L16.2 25.9c-.1.15-.28.15-.38 0l-5.7-8.13zm.04-2.03a.3.3 0 0 1-.13-.42l5.74-9.2c.1-.15.25-.15.34 0l5.77 9.19c.1.14.05.33-.12.41l-5.5 2.78a.73.73 0 0 1-.6 0l-5.5-2.76z" fill="#FFF"></path></svg>
+      <svg height="10" viewBox="0 0 32 32" width="10" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10.13 17.76c-.1-.15-.06-.2.09-.12l5.49 3.09c.15.08.4.08.56 0l5.58-3.08c.16-.08.2-.03.1.11L16.2 25.9c-.1.15-.28.15-.38 0l-5.7-8.13zm.04-2.03a.3.3 0 0 1-.13-.42l5.74-9.2c.1-.15.25-.15.34 0l5.77 9.19c.1.14.05.33-.12.41l-5.5 2.78a.73.73 0 0 1-.6 0l-5.5-2.76z" fill="#FFF">
+        </path>
+      </svg>
     </div>
     <div class="coin-face"></div>
     <div class="coin-face"></div>
     <div class="coin-face"></div>
     <div class="coin-face">
-      <svg height="8" viewBox="0 0 32 32" width="8" xmlns="http://www.w3.org/2000/svg"><path d="M10.13 17.76c-.1-.15-.06-.2.09-.12l5.49 3.09c.15.08.4.08.56 0l5.58-3.08c.16-.08.2-.03.1.11L16.2 25.9c-.1.15-.28.15-.38 0l-5.7-8.13zm.04-2.03a.3.3 0 0 1-.13-.42l5.74-9.2c.1-.15.25-.15.34 0l5.77 9.19c.1.14.05.33-.12.41l-5.5 2.78a.73.73 0 0 1-.6 0l-5.5-2.76z" fill="#fff"></path></svg>
+      <svg height="8" viewBox="0 0 32 32" width="8" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10.13 17.76c-.1-.15-.06-.2.09-.12l5.49 3.09c.15.08.4.08.56 0l5.58-3.08c.16-.08.2-.03.1.11L16.2 25.9c-.1.15-.28.15-.38 0l-5.7-8.13zm.04-2.03a.3.3 0 0 1-.13-.42l5.74-9.2c.1-.15.25-.15.34 0l5.77 9.19c.1.14.05.33-.12.41l-5.5 2.78a.73.73 0 0 1-.6 0l-5.5-2.76z" fill="#fff">
+        </path>
+      </svg>
     </div>
   </div>
   <input class="coin-address" onclick="this.select()" readonly="readonly" spellcheck="false" type="text" value="0xF4EbAbA0445a21B35f9Bdd919DCC967a30BE83CB" />
