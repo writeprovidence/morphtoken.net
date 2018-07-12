@@ -78,125 +78,129 @@ Let us know if you have questions or have used Morphtoken in your application.
 ## Donation Bin
 
 <style>
-
 .donate-crypto-box {
-	display: flex;
-	align-items: center;
-	width: 100%;
-	padding: 1em;
-	box-sizing: border-box;
-	user-select: none;
-	cursor: text;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: text;
 }
 
 .coin {
-	display: inline-block;
-	position: relative;
-	min-width: 3em;
-	min-height: 3em;
-	animation: spin 3s cubic-bezier(0.3, 2, 0.4, 0.8) infinite both;
-	transform-style: preserve-3d;
-	vertical-align: middle;
-
-	@keyframes spin {
-		0%,
-		10% {
-			transform: rotate(-10deg) perspective(400px);
-		}
-		90%,
-		100% {
-			transform: rotate(-10deg) perspective(400px) rotateY(180deg);
-		}
-	}
+  display: inline-block;
+  position: relative;
+  min-width: 3em;
+  min-height: 3em;
+  -webkit-animation: spin 3s cubic-bezier(0.3, 2, 0.4, 0.8) infinite both;
+          animation: spin 3s cubic-bezier(0.3, 2, 0.4, 0.8) infinite both;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  vertical-align: middle;
 }
-
+@-webkit-keyframes spin {
+  0%, 10% {
+    -webkit-transform: rotate(-10deg) perspective(400px);
+            transform: rotate(-10deg) perspective(400px);
+  }
+  90%, 100% {
+    -webkit-transform: rotate(-10deg) perspective(400px) rotateY(180deg);
+            transform: rotate(-10deg) perspective(400px) rotateY(180deg);
+  }
+}
+@keyframes spin {
+  0%, 10% {
+    -webkit-transform: rotate(-10deg) perspective(400px);
+            transform: rotate(-10deg) perspective(400px);
+  }
+  90%, 100% {
+    -webkit-transform: rotate(-10deg) perspective(400px) rotateY(180deg);
+            transform: rotate(-10deg) perspective(400px) rotateY(180deg);
+  }
+}
 .coin-face {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	border-radius: 50%;
-
-	&:nth-child(1) {
-		transform: translateZ(-0.2em) rotateY(-180deg);
-	}
-	&:nth-child(2) {
-		transform: translateZ(-0.1em);
-	}
-	&:nth-child(4) {
-		transform: translateZ(0.1em);
-	}
-	&:nth-child(5) {
-		transform: translateZ(0.2em);
-	}
-
-	svg {
-		width: 100%;
-		height: 100%;
-	}
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+}
+.coin-face:nth-child(1) {
+  -webkit-transform: translateZ(-0.2em) rotateY(-180deg);
+          transform: translateZ(-0.2em) rotateY(-180deg);
+}
+.coin-face:nth-child(2) {
+  -webkit-transform: translateZ(-0.1em);
+          transform: translateZ(-0.1em);
+}
+.coin-face:nth-child(4) {
+  -webkit-transform: translateZ(0.1em);
+          transform: translateZ(0.1em);
+}
+.coin-face:nth-child(5) {
+  -webkit-transform: translateZ(0.2em);
+          transform: translateZ(0.2em);
+}
+.coin-face svg {
+  width: 100%;
+  height: 100%;
 }
 
 .coin-address {
-	flex: 1;
-	font: 0.7em/2.5 Monaco, monospace;
-	text-align: center;
-	margin-left: 1em;
-	border-width: 0 0 2px;
-	border-color: rgba(black, 0.1);
-	transition: border-color 0.3s;
-	cursor: text;
-
-	&:hover {
-		transition-duration: 0.1s;
-	}
+  flex: 1;
+  font: .7em/2.5 Monaco, monospace;
+  text-align: center;
+  margin-left: 1em;
+  border-width: 0 0 2px;
+  border-color: rgba(0, 0, 0, 0.1);
+  transition: border-color .3s;
+  cursor: text;
+}
+.coin-address:hover {
+  transition-duration: .1s;
 }
 
-@mixin crypto($color, $max-width) {
-	max-width: $max-width;
 
-	.coin-face {
-		background: shade($color, 35%);
-
-		&:nth-child(1),
-		&:nth-child(5) {
-			background: $color;
-		}
-	}
-
-	.coin-address {
-		&:hover,
-		&:focus {
-			border-color: $color;
-		}
-	}
-}
-
-// @include crypto($color, $max-width)
-.btc {
-	@include crypto(#ff9900, 21em);
-}
 .eth {
-	@include crypto(#6f7cba, 23em);
+  max-width: 23em;
 }
-.ltc {
-	@include crypto(#b5b5b5, 21em);
+.eth .coin-face {
+  background: shade(#6F7CBA, 35%);
+}
+.eth .coin-face:nth-child(1), .eth .coin-face:nth-child(5) {
+  background: #6F7CBA;
+}
+.eth .coin-address:hover, .eth .coin-address:focus {
+  border-color: #6F7CBA;
 }
 
-// Demo styles
 body {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	font-size: 4vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 4vmin;
 }
 
-@for $i from 1 through 3 {
-	.donate-crypto-box:nth-child(#{$i}) .coin {
-		animation-delay: $i*0.2s;
-	}
+.donate-crypto-box:nth-child(1) .coin {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.donate-crypto-box:nth-child(2) .coin {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.donate-crypto-box:nth-child(3) .coin {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
 }
 
 </style>
