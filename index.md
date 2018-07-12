@@ -70,7 +70,7 @@ Trading colors in App B becomes especially interesting when there is a chance th
 This is an idea by Joseph Schiarizzi. Find me here:  
 [twitter](https://twitter.com/cupojoseph)  
 [email](mailto:jschiarizzi@gmail.com)
-[portfolio](http://josephschiarizzi.com)
+[personal portfolio](http://josephschiarizzi.com)
 
 Let us know if you have questions or have used Morphtoken in your application.
 
