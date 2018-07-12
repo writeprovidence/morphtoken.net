@@ -1,209 +1,103 @@
-# Morphtoken
-An ERC721 token that adds interoperability between collectible applications. A Morphtoken is a generic and unique crypto asset which can be used to in many different collectible games.
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <title>Morph Token</title>
+  </head>
+  <body>
+    <h1 id="morphtoken">Morphtoken</h1>
 
-<img src="morphtoken.png " width="120" />
+<p>An ERC721 token that adds interoperability between collectible applications. A Morphtoken is a generic and unique crypto asset which can be used to in many different collectible games.</p>
 
-## Introduction
+<img src="https://raw.githubusercontent.com/jschiarizzi/morphtoken.net/master/morphtoken.png?token=AJAwfDUguXNWGDneSjxhqj7MBNMeInefks5bUJ9owA%3D%3D " width="120" />
 
-### What does interoperability mean?
-Multiple different collectible games, services, trackers, and apps can use Morphtoken such that each token is a different collectible in each respective application, owned by a single user. More on why this is useful later.
+<h2 id="introduction">Introduction</h2>
 
-### Why?
-The goal is to make it easier, cheaper, more fun, to launch and use crypto collectable projects.
+<h3 id="whatdoesinteroperabilitymean">What does interoperability mean?</h3>
 
-### What's with the barebones website?
-Morphtoken is as simple as possible, so is the documentation and website.
+<p>Multiple different collectible games, services, trackers, and apps can use Morphtoken such that each token is a different collectible in each respective application, owned by a single user. More on why this is useful later.</p>
 
-***
+<h3 id="why">Why?</h3>
 
-## Specs
+<p>The goal is to make it easier, cheaper, more fun, to launch and use crypto collectable projects.</p>
 
-### White Paper
-Coming very soon.
+<h3 id="whatswiththebareboneswebsite">What's with the barebones website?</h3>
 
-### Genes
-Each Morphtoken has a gene which can used to determine how it is represented in different applications. Each gene is made up of:
+<p>Morphtoken is as simple as possible, so is the documentation and website.</p>
 
-- A 'Counter variable' which is the unique number for the order the assets were created in. The first Morphtoken 'Counter variable' is 1; the last is 10,000,000.
-- 3 'Boolean variables' represented as a 1 or 0.
-- A 'DNA sequence' represented as an 18 digit long number.
-- A 'P variable' represented as a number between 1 and 100.
+<hr />
 
+<h2 id="specs">Specs</h2>
 
+<h3 id="whitepaper">White Paper</h3>
 
-***
+<p>Coming very soon.</p>
 
-## Distribution
-This is still under consideration. We want to give away as many Morphtokens as possible to members of the Ethereum and Crypto community so that more people will be inspired to more easily create applications with unique crypto items.
+<h3 id="genes">Genes</h3>
 
-We are still figuring out the best way to do that.
+<p>Each Morphtoken has a gene which can used to determine how it is represented in different applications. Each gene is made up of:</p>
 
-***
+<ul>
+<li>A 'Counter variable' which is the unique number for the order the assets were created in. The first Morphtoken 'Counter variable' is 1; the last is 10,000,000.</li>
 
-# Examples
+<li>3 'Boolean variables' represented as a 1 or 0.</li>
 
-What if every professional athlete played in every sports league? If you owned the baseball card for pitcher Joe Schmoe you could also use it as the basketball card for point-guard Joe Schmoe.  That's what we're going for here.
+<li>A 'DNA sequence' represented as an 18 digit long number.</li>
 
-## Simple specific individual use case  
+<li>A 'P variable' represented as a number between 1 and 100.</li>
+</ul>
 
-A Morphtoken has a unique ID, for example **123123123**.  
+<hr />
 
-An app could use this coin to to represent a soldier in a strategy game.  The soldiers strength could be represented as the first 4 digits of the ID divided by 9, and its defense represented by rest of the ID divided by 10.  Using modulus will work better here than division but for simplicity we chose division.
+<h2 id="distribution">Distribution</h2>
 
-Now the owner of that Morphtoken has a unique solder in that app with **136** strength and **2312** health in that application.
+<p>This is still under consideration. We want to give away as many Morphtokens as possible to members of the Ethereum and Crypto community so that more people will be inspired to more easily create applications with unique crypto items.</p>
 
-## Interoperability use example
+<p>We are still figuring out the best way to do that.</p>
 
-**App A** : Every token is represented by a shape. Even number IDs are squares. Odd number IDs are triangles, unless the ID ends in 999, in which case the token represents a circle. Circles are rare.
+<hr />
 
-**App B** : Every token is a color represented by the last 6 digits of the ID.  
+<h1 id="examples">Examples</h1>
 
-If a user owns the Morphtoken with ID **888123888** they own it in both apps A and B.  In app A it is a common (1/2 chance) square. In app B the Morphtoken is represented by a random color.
+<p>What if every professional athlete played in every sports league? If you owned the baseball card for pitcher Joe Schmoe you could also use it as the basketball card for point-guard Joe Schmoe.  That's what we're going for here.</p>
 
-If a user owns the Morphtoken with ID **999123999** they own it in both apps A and B.  In app A it is a rare (1/1000 chance) circle, where as in App B is it a regular random color with the same probability as any other.
+<h2 id="simplespecificindividualusecase">Simple specific individual use case</h2>
 
-Trading colors in App B becomes especially interesting when there is a chance that the Morphtoken up for trade is a rare shape in App A, or some other app in the ecosystem.
+<p>A Morphtoken has a unique ID, for example <strong>123123123</strong>.  </p>
 
-***
+<p>An app could use this coin to to represent a soldier in a strategy game.  The soldiers strength could be represented as the first 4 digits of the ID divided by 9, and its defense represented by rest of the ID divided by 10.  Using modulus will work better here than division but for simplicity we chose division.</p>
 
-## Contact
-This is an idea by Joseph Schiarizzi. Find me here:  
-[twitter](https://twitter.com/cupojoseph)  
-[email](mailto:jschiarizzi@gmail.com)
-[personal portfolio](http://josephschiarizzi.com)
+<p>Now the owner of that Morphtoken has a unique solder in that app with <strong>136</strong> strength and <strong>2312</strong> health in that application.</p>
 
-Let us know if you have questions or have used Morphtoken in your application.
+<h2 id="interoperabilityuseexample">Interoperability use example</h2>
+
+<p><strong>App A</strong> : Every token is represented by a shape. Even number IDs are squares. Odd number IDs are triangles, unless the ID ends in 999, in which case the token represents a circle. Circles are rare.</p>
+
+<p><strong>App B</strong> : Every token is a color represented by the last 6 digits of the ID.  </p>
+
+<p>If a user owns the Morphtoken with ID <strong>888123888</strong> they own it in both apps A and B.  In app A it is a common (1/2 chance) square. In app B the Morphtoken is represented by a random color.</p>
+
+<p>If a user owns the Morphtoken with ID <strong>999123999</strong> they own it in both apps A and B.  In app A it is a rare (1/1000 chance) circle, where as in App B is it a regular random color with the same probability as any other.</p>
+
+<p>Trading colors in App B becomes especially interesting when there is a chance that the Morphtoken up for trade is a rare shape in App A, or some other app in the ecosystem.</p>
+
+<hr />
+
+<h2 id="contact">Contact</h2>
+
+<p>This is an idea by Joseph Schiarizzi. Find me here: <br />
+<a href="https://twitter.com/cupojoseph">twitter</a> <br />
+<a href="mailto:jschiarizzi@gmail.com">email</a> <br>
+<a href="http://josephschiarizzi.com">portfolio</a></p>
+
+<p>Let us know if you have questions or have used Morphtoken in your application.</p>
 
 <!-- Some HTML for a crypto donation bin-->
-## Donation Bin
 
-<style>
-
-.donate-crypto-box {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 1em;
-  box-sizing: border-box;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  cursor: text;
-}
-
-.coin {
-  display: inline-block;
-  position: relative;
-  min-width: 3em;
-  min-height: 3em;
-  -webkit-animation: spin 3s cubic-bezier(0.3, 2, 0.4, 0.8) infinite both;
-          animation: spin 3s cubic-bezier(0.3, 2, 0.4, 0.8) infinite both;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  vertical-align: middle;
-}
-@-webkit-keyframes spin {
-  0%, 10% {
-    -webkit-transform: rotate(-10deg) perspective(400px);
-            transform: rotate(-10deg) perspective(400px);
-  }
-  90%, 100% {
-    -webkit-transform: rotate(-10deg) perspective(400px) rotateY(180deg);
-            transform: rotate(-10deg) perspective(400px) rotateY(180deg);
-  }
-}
-@keyframes spin {
-  0%, 10% {
-    -webkit-transform: rotate(-10deg) perspective(400px);
-            transform: rotate(-10deg) perspective(400px);
-  }
-  90%, 100% {
-    -webkit-transform: rotate(-10deg) perspective(400px) rotateY(180deg);
-            transform: rotate(-10deg) perspective(400px) rotateY(180deg);
-  }
-}
-.coin-face {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 50%;
-}
-.coin-face:nth-child(1) {
-  -webkit-transform: translateZ(-0.2em) rotateY(-180deg);
-          transform: translateZ(-0.2em) rotateY(-180deg);
-}
-.coin-face:nth-child(2) {
-  -webkit-transform: translateZ(-0.1em);
-          transform: translateZ(-0.1em);
-}
-.coin-face:nth-child(4) {
-  -webkit-transform: translateZ(0.1em);
-          transform: translateZ(0.1em);
-}
-.coin-face:nth-child(5) {
-  -webkit-transform: translateZ(0.2em);
-          transform: translateZ(0.2em);
-}
-.coin-face svg {
-  width: 100%;
-  height: 100%;
-}
-
-.coin-address {
-  flex: 1;
-  font: .7em/2.5 Monaco, monospace;
-  text-align: center;
-  margin-left: 1em;
-  border-width: 0 0 2px;
-  border-color: rgba(0, 0, 0, 0.1);
-  transition: border-color .3s;
-  cursor: text;
-}
-.coin-address:hover {
-  transition-duration: .1s;
-}
+<h2 id="donationbin">Donation Bin</h2>
 
 
-.eth {
-  max-width: 23em;
-}
-.eth .coin-face {
-  background: shade(#6F7CBA, 35%);
-}
-.eth .coin-face:nth-child(1), .eth .coin-face:nth-child(5) {
-  background: #6F7CBA;
-}
-.eth .coin-address:hover, .eth .coin-address:focus {
-  border-color: #6F7CBA;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: center;
-  font-size:34vmin;
-}
-
-.donate-crypto-box:nth-child(1) .coin {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
-}
-
-.donate-crypto-box:nth-child(2) .coin {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
-}
-
-.donate-crypto-box:nth-child(3) .coin {
-  -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
-}
-
-</style>
 
 
 <label class="eth donate-crypto-box">
@@ -226,3 +120,5 @@ body {
   </div>
   <input class="coin-address" onclick="this.select()" readonly="readonly" spellcheck="false" type="text" value="0xF4EbAbA0445a21B35f9Bdd919DCC967a30BE83CB" />
   </label>
+  </body>
+</html>
