@@ -135,6 +135,7 @@ h1 {
           animation-delay: 0.6s;
 }
 
-.QR{
-  width: 10%;
+.qr{
+  height: 50px;
+  max-width: 10%;
 }
