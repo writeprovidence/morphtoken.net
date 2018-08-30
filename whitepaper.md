@@ -7,7 +7,9 @@ A non-fungible token to serve as a standalone collectable and also as a backbone
 3. Provide a non-fungible token with several fields of varying types of data attached to each token. (morph token. notice )
 4. Provide an algorithm that is acceptably random for generating new MorphTokens.
 
-## Why (the problem)
+## Why
+
+### Problems
 Since the success of Cryptokitties, dozens of non-fungible token (NFT) projects have been launched. There will be hundreds more NFT projects launched in coming years, as we are just getting this party started.  Each launch has to work on
 - A community of players/users must be created from scratch
 - A (often complicated) secure and acceptably random algorithm for creating each individual NFT must be developed.
@@ -15,6 +17,20 @@ Since the success of Cryptokitties, dozens of non-fungible token (NFT) projects 
 - An Explorer, for users to view their tokens, must be developed.
 - The security of all contracts must be tested.
 - A lot of Gas must be spent to distribute the initial NFTs.
+
+### Solutions
+A Morphtoken is a generic and unique crypto asset which can be used to in any number of different collectible games.
+
+For developers, they can use the MorphToken smart contracts as backends for their own NFT project. No need to develop random algorithms, write any contracts, pay for distribution of tokens, now worry about security.  A NFT project built on MorphToken could be built with just a few lines of javascript and [web3.js](github.com/web3/web3). Creators can decide what they want their collectable project to be, for example, a crypto flower collectable game.  Then use the data fields of each morph token to represent any attribute of their collectables, for example the color and shape of a flower.
+
+For morph token holders, if a user owns a morph token, it can be used as an NFT in _every_ collectable project built on top of MorphToken. That means at launch, a new project will already have all of the users MorphToken does.
+
+This adds some other interesting aspects to every project.  A morph token might represent a very rare item in one project but a very common one in another.  This might make people curious in seeing what
+
+#### Examples
+What if every professional athlete played in every sports league? If you owned the baseball card for pitcher Joe Schmoe you could also use it as the basketball card for point-guard Joe Schmoe.  
+
+A single morph token could be used in a crypto baseball collectable game as David Ortiz, but in a crypto
 
 ## Specifics
 The MorphToken project has a few parts. First, there are boxes which are fungible tokens, each of which can be converted in many packs. Second, there packs, which are fungible tokens which can be converted in morph tokens. Second, it has non-fungible tokens, which are the morph tokens.  Fourth, it has a front end website at [Morphtoken.net](http://morphtoken.net) where users are able to learn more about the project, see data on their owned morphtokens, and find a list of other projects being built on top of MorphToken.  The code for the website (as well as all of the contracts) can be found on the creator's [github](http://github.com/jschiarizzi) and is 100% open source. Should the website or github repository be deleted (it won't be), all of the tokens would be unaffected, as they live on Ethereum's blockchain.
@@ -34,21 +50,21 @@ The packs in this project behave similarly to packs of trading cards.  You don't
 
 The purpose of having packs (and boxes) is to make it easier to distribute morph tokens.  Instead of paying gas for 500 transactions to transfer 500 morph tokens, we can simply make 1 transaction by sending a box. Also, more wallets and services support ERC-20 tokens, so we can make use of a lot more potential integrations that could be fun.
 
-
 ### morph tokens
 (notice lower case)
-
-
+A non-fungible token that is the reason for this project. It can be used in multiple collectable games.
 
 #### Data
-Every morph token has several data fields attached to it.  Currently, those are:
+Every morph token has several data fields attached to it, called "genes". The genes of a morph token determine how it is represented  Currently, those are:
 
 
 ### Explorer
-
+MorphToken will provide a way for users to check what tokens they own and the data associated with each token, on our website.
 
 ### Future Plans
-- A javascript SDK so people can create their own blockchain collectable
+- A javascript SDK so people can create their own blockchain collectable super fast.
+- A big hackathon where we give away a bunch of boxes and packs to people that complete a project built on top of MorphToken.
+- A marketplace for trading morph tokens.
 
 ## Definitions of Terms Used Here
 - Fungible: An asset which is interchangeable with other assets of the same kind. For example, a dollar.  It doesn't matter which dollar it is, you can use any dollar to buy things in a store.

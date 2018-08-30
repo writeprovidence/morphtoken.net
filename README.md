@@ -1,7 +1,7 @@
 [Morphtoken.net](Morphtoken.net)
 
 # Morphtoken
-An ERC721 token that adds interoperability between collectible applications. A Morphtoken is a generic and unique crypto asset which can be used to in many different collectible games.
+An ERC721 token that adds interoperability between collectible applications. Morphtoken is a generic and unique crypto asset which can be used to in many different collectible games.
 
 <img src="morphtoken.png " width="120" />
 
