@@ -26,7 +26,7 @@ Coming very soon.
 ### Genes
 Each Morphtoken has a gene which can used to determine how it is represented in different applications. Each gene is made up of:
 
-- A 'Counter variable' which is the unique number for the order the assets were created in. The first Morphtoken 'Counter variable' is 1; the last is 10,000,000.
+- A 'Counter variable' which is the unique number for the order the assets were created in. The first Morphtoken 'Counter variable' is 0; the last is 9,999,999.
 - 3 'Boolean variables' represented as a 1 or 0.
 - A 'DNA sequence' represented as an 18 digit long number.
 - A 'P variable' represented as a number between 1 and 100.
