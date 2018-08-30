@@ -11,7 +11,7 @@ A non-fungible token to serve as a standalone collectable and also as a backbone
 Since the success of Cryptokitties, dozens of non-fungible token (NFT) projects have been launched.
 
 ## Specifics
-The MorphToken project has a few parts. First, is has a fungible token of packs. Second, it has non-fungible tokens, which are the morph tokens. Third, it has a front end website at [Morphtoken.net](http://morphtoken.net) where users are able to learn more about the project, see data on their owned morphtokens, and find a list of other projects being built on top of MorphToken.  The code for the website (as well as all of the contracts) can be found on the creator's [github](http://github.com/jschiarizzi) and is 100% open source.
+The MorphToken project has a few parts. First, is has a fungible token of packs. Second, it has non-fungible tokens, which are the morph tokens. Third, it has a front end website at [Morphtoken.net](http://morphtoken.net) where users are able to learn more about the project, see data on their owned morphtokens, and find a list of other projects being built on top of MorphToken.  The code for the website (as well as all of the contracts) can be found on the creator's [github](http://github.com/jschiarizzi) and is 100% open source. Should the website or github repository be deleted, all of the tokens would be unaffected, as they live on Ethereum's blockchain.
 
 ### Packs
 
