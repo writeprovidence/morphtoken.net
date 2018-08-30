@@ -11,3 +11,7 @@ A non-fungible token to serve as a standalone collectable and also as a backbone
 Since the success of Cryptokitties, dozens of non-fungible token (NFT) projects have been launched.
 
 ## Outline
+
+## Definitions of Terms Used Here
+- Fungible: An asset which is interchangeable with other assets of the same kind. For example, a dollar.  It doesn't matter which dollar it is, you can use any dollar to buy things in a store.
+- Non-fungible: An asset which is _not_ interchangeable. For example, a baseball card.  All the cards in a set are unique and have different attributes, even though they are all baseball cards.
