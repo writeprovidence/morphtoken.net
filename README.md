@@ -1,9 +1,10 @@
 [Morphtoken.net](Morphtoken.net)
 
 # Morphtoken
-An ERC721 token that adds interoperability between collectible applications. Morphtoken is a generic and unique crypto asset which can be used to in many different collectible games.
+An ERC-721 token that adds interoperability between collectible applications. Morphtoken is a generic and unique crypto asset which can be used to in many different collectible projects. This project also uses a fungible ERC-20 token called Packs (MTP).  Each pack can be "opened" and exchanged for 10 random morph tokens.
 
 <img src="morphtoken.png " width="120" />
+
 
 ## Introduction
 
@@ -26,15 +27,15 @@ Coming very soon.
 ### Genes
 Each Morphtoken has a gene which can used to determine how it is represented in different applications. Each gene is made up of:
 
-- A 'Counter variable' which is the unique number for the order the assets were created in. The first Morphtoken 'Counter variable' is 0; the last is 9,999,999.
+- A 'C variable' (counter) which is the unique number for the order the assets were created in. The first morph token is 0; the last is 9,999,999.
 - 3 'Boolean variables' represented as a 1 or 0.
 - A 'DNA sequence' represented as an 18 digit long number.
-- A 'P variable' represented as a number between 1 and 100.
+- A 'P variable' (percent) represented as a number between 1 and 100.
 
 ***
 
 ## Distribution
-This is still under consideration. We want to give away as many Morphtokens as possible to members of the Ethereum and Crypto community so that more people will be inspired to more easily create applications with unique crypto items.
+This is still under consideration. We want to give away as many morph tokens as possible to members of the Ethereum and Crypto community so that more people will be inspired to more easily create applications with unique crypto items.
 
 We are still figuring out the best way to do that.
 
