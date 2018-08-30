@@ -62,9 +62,11 @@ Every morph token has several data fields attached to it, called "genes". The ge
 MorphToken will provide a way for users to check what tokens they own and the data associated with each token, on our website.
 
 ### Future Plans
-- A javascript SDK so people can create their own blockchain collectable super fast.
+- A javascript SDK so people can create their own blockchain collectable super fast with easy web requests.
 - A big hackathon where we give away a bunch of boxes and packs to people that complete a project built on top of MorphToken.
 - A marketplace for trading morph tokens.
+
+No specific time line or "roadmap." I think those are kind of dumb. It will take as long as it takes, and we will be transparent with development.  If you have other ideas for things that should be built in order to support the MorphToken community, please let us know. We want to build those things too!
 
 ## Definitions of Terms Used Here
 - Fungible: An asset which is interchangeable with other assets of the same kind. For example, a dollar.  It doesn't matter which dollar it is, you can use any dollar to buy things in a store.
