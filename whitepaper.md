@@ -56,7 +56,10 @@ A non-fungible token that is the reason for this project. It can be used in mult
 
 #### Data
 Every morph token has several data fields attached to it, called "genes". The genes of a morph token determine how it is represented  Currently, those are:
-
+- A 'C variable' (counter) which is the unique number for the order the assets were created in. The first morph token is 0; the last is 9,999,999.
+- 3 'Boolean variables' represented as a 1 or 0.
+- A 'DNA sequence' represented as an 18 digit long number.
+- A 'P variable' (percent) represented as a number between 1 and 100.s
 
 ### Explorer
 MorphToken will provide a way for users to check what tokens they own and the data associated with each token, on our website.
