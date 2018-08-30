@@ -40,7 +40,7 @@ Boxes are a fungible ERC-20 token. When this project is deployed there will be e
 
 Initial Box Distribution:
 - 60% (1200): To be given away to the first 200 project which get build on top of MorphToken.
-- 20% (400): To be sold to fund further development of this project.
+- 20% (400): To be sold to fund further development of this project, max 4 per week.
 - 10% (200): To be immediately converted into packs and given away at conventions, meetups, hackathons, parties, etc. with the goal of driving adoption.
 - 9.75% (195): For Joseph Schiarizzi (creator) to save and give away at leisure. I made this after all, I should get to do what I want with at least some of it.
 - 0.25% (5) For Abigail, Avi, Eric, Osebo, and Rowland, for helping inspire this project and support me through its development.
@@ -79,6 +79,10 @@ No specific time line or "roadmap." I think those are kind of dumb. It will take
 - Gas: The term for the small fee for doing work in Ethereum.  At the time of writing this that is about $0.04 USD for a transfer.
 - ERC-20: A [standard](github.com/ethereum/EIPs/issues/20) for fungible tokens. Works very well with pretty much all Ethereum wallets and apps.
 - Minted: Similar to how the US Mint creates dollar bills.  We will create 2000 boxes.
+- Are we missing something? Let us know.
 
 ## Notes
 - We chose Morphtoken.net because we want morph token to be a network.
+- We are seriously going to give away almost all of the boxes and packs.
+- Devs: Make lots of fun games. Stop trying to sell generated images.
+- Software made with love in Reston, VA
