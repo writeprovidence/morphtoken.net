@@ -22,7 +22,7 @@ Morphtoken is as simple as possible, so is the documentation and website.
 ## Specs
 
 ### White Paper
-Read the [whitepaper](https://github.com/jschiarizzi/morphtoken.net/blob/master/whitepaper.md). Estimated read time is 8 minutes.
+Read the [whitepaper](https://github.com/jschiarizzi/morphtoken.net/blob/master/whitepaper.md). Estimated read time is 7 minutes.
 
 ### Genes
 Each Morphtoken has a gene which can used to determine how it is represented in different applications. Each gene is made up of:
@@ -49,7 +49,7 @@ What if every professional athlete played in every sports league? If you owned t
 
 A Morphtoken has a unique ID, for example **123123123**.  
 
-An app could use this coin to to represent a soldier in a strategy game.  The soldiers strength could be represented as the first 4 digits of the ID divided by 9, and its defense represented by rest of the ID divided by 10.  Using modulus will work better here than division but for simplicity we chose division.
+An app could use this coin to represent a soldier in a strategy game.  The soldiers strength could be represented as the first 4 digits of the ID divided by 9, and its defense represented by rest of the ID divided by 10.  Using modulus will work better here than division but for simplicity we chose division.
 
 Now the owner of that Morphtoken has a unique solder in that app with **136** strength and **2312** health in that application.
 
