@@ -22,7 +22,7 @@ Morphtoken is as simple as possible, so is the documentation and website.
 ## Specs
 
 ### White Paper
-Coming very soon.
+Read the [whitepaper](https://github.com/jschiarizzi/morphtoken.net/blob/master/whitepaper.md). Estimated read time is 8 minutes.
 
 ### Genes
 Each Morphtoken has a gene which can used to determine how it is represented in different applications. Each gene is made up of:
