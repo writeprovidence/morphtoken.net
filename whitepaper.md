@@ -30,7 +30,7 @@ This adds some other interesting aspects to every project.  A morph token might 
 #### Examples
 What if every professional athlete played in every sports league? If you owned the baseball card for pitcher Joe Schmoe you could also use it as the basketball card for point-guard Joe Schmoe.  
 
-A single morph token could be used in a crypto baseball collectable game as David Ortiz, but in a crypto
+*A single morph token with id 123 could be used in a crypto baseball collectable game as David Ortiz, but in a crypto basketball collectable game the token with id 123 is Michael Jordan.*
 
 ## Specifics
 The MorphToken project has a few parts. First, there are boxes which are fungible tokens, each of which can be converted in many packs. Second, there packs, which are fungible tokens which can be converted in morph tokens. Second, it has non-fungible tokens, which are the morph tokens.  Fourth, it has a front end website at [Morphtoken.net](http://morphtoken.net) where users are able to learn more about the project, see data on their owned morphtokens, and find a list of other projects being built on top of MorphToken.  The code for the website (as well as all of the contracts) can be found on the creator's [github](http://github.com/jschiarizzi) and is 100% open source. Should the website or github repository be deleted (it won't be), all of the tokens would be unaffected, as they live on Ethereum's blockchain.
