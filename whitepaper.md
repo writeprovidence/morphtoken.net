@@ -1,4 +1,4 @@
-# MorphToken
+ # MorphToken
 A non-fungible token to serve as a standalone collectable and also as a backbone for other non-fungible projects and assets.
 
 ## Goals
@@ -39,9 +39,8 @@ The MorphToken project has a few parts. First, there are boxes which are fungibl
 Boxes are a fungible ERC-20 token. When this project is deployed there will be exactly *2000* boxes minted. No further boxes can be created, ever. Each box can be converted into *50* packs. Packs can not be converted back into Boxes.
 
 Initial Box Distribution:
-- 60% (1200): To be given away to the first 200 project which get build on top of MorphToken.
-- 20% (400): To be sold to fund further development of this project, max 4 per week.
-- 10% (200): To be immediately converted into packs and given away at conventions, meetups, hackathons, parties, etc. with the goal of driving adoption.
+- 70% (1400): To be given away to the first 200 project which get build on top of MorphToken.
+- 20% (400): To be immediately converted into packs and given away at conventions, meetups, hackathons, parties, etc. with the goal of driving adoption.
 - 9.75% (195): For Joseph Schiarizzi (creator) to save and give away at leisure. I made this after all, I should get to do what I want with at least some of it.
 - 0.25% (5) For Abigail, Avi, Eric, Osebo, and Rowland, for helping inspire this project and support me through its development.
 
