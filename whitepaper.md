@@ -21,6 +21,8 @@ Since the success of Cryptokitties, dozens of non-fungible token (NFT) projects 
 ### Solutions
 A Morphtoken is a generic and unique crypto asset which can be used to in any number of different collectible games.
 
+TODO: add a cool graphic that I made with MS paint here.
+
 For developers, they can use the MorphToken smart contracts as backends for their own NFT project. No need to develop random algorithms, write any contracts, pay for distribution of tokens, now worry about security.  A NFT project built on MorphToken could be built with just a few lines of javascript and [web3.js](github.com/web3/web3). Creators can decide what they want their collectable project to be, for example, a crypto flower collectable game.  Then use the data fields of each morph token to represent any attribute of their collectables, for example the color and shape of a flower.
 
 For morph token holders, if a user owns a morph token, it can be used as an NFT in _every_ collectable project built on top of MorphToken. That means at launch, a new project will already have all of the users MorphToken does.
@@ -59,6 +61,9 @@ Every morph token has several data fields attached to it, called "genes". The ge
 - 3 'Boolean variables' represented as a 1 or 0.
 - A 'DNA sequence' represented as an 18 digit long number.
 - A 'P variable' (percent) represented as a number between 1 and 100.s
+
+TODO: More data fields
+TODO: An explanation of why those fields were chosen and how they can be used by developers on their own projects.
 
 ### Explorer
 MorphToken will provide a way for users to check what tokens they own and the data associated with each token, on our website.
